@@ -1,0 +1,75 @@
+[28-Jul-2022 11:43:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 11:43:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 11:44:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 11:45:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 11:46:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 12:06:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 12:06:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 11
+[28-Jul-2022 12:08:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 13
+[28-Jul-2022 12:12:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Autoload' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 12
+[28-Jul-2022 12:12:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Requests' not found in /home/complyne/public_html/staging/razorpay-php/Razorpay.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 14
+[28-Jul-2022 12:13:46 Asia/Kolkata] PHP Notice:  Undefined index: service in /home/complyne/public_html/staging/razorpay-php/src/Resource.php on line 45
+[28-Jul-2022 12:13:46 Asia/Kolkata] PHP Notice:  Undefined index: service in /home/complyne/public_html/staging/razorpay-php/src/Resource.php on line 45
+[28-Jul-2022 13:11:14 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 76
+[28-Jul-2022 13:11:17 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Order amount less than minimum amount allowed in /home/complyne/public_html/staging/razorpay-php/src/Request.php:142
+Stack trace:
+#0 /home/complyne/public_html/staging/razorpay-php/src/Request.php(109): Razorpay\Api\Request->processError(Array, 400, Object(WpOrg\Requests\Response))
+#1 /home/complyne/public_html/staging/razorpay-php/src/Request.php(58): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 /home/complyne/public_html/staging/razorpay-php/src/Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/complyne/public_html/staging/razorpay-php/src/Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/complyne/public_html/staging/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/complyne/public_html/staging/razorpay-php/Razorpay.php(78): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/src/Request.php on line 142
+[28-Jul-2022 13:11:51 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 76
+[28-Jul-2022 13:11:52 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Order amount less than minimum amount allowed in /home/complyne/public_html/staging/razorpay-php/src/Request.php:142
+Stack trace:
+#0 /home/complyne/public_html/staging/razorpay-php/src/Request.php(109): Razorpay\Api\Request->processError(Array, 400, Object(WpOrg\Requests\Response))
+#1 /home/complyne/public_html/staging/razorpay-php/src/Request.php(58): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 /home/complyne/public_html/staging/razorpay-php/src/Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/complyne/public_html/staging/razorpay-php/src/Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/complyne/public_html/staging/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/complyne/public_html/staging/razorpay-php/Razorpay.php(78): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/src/Request.php on line 142
+[28-Jul-2022 14:13:36 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/complyne/public_html/staging/razorpay-php/Razorpay.php on line 76
+[28-Jul-2022 14:13:39 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Order amount less than minimum amount allowed in /home/complyne/public_html/staging/razorpay-php/src/Request.php:142
+Stack trace:
+#0 /home/complyne/public_html/staging/razorpay-php/src/Request.php(109): Razorpay\Api\Request->processError(Array, 400, Object(WpOrg\Requests\Response))
+#1 /home/complyne/public_html/staging/razorpay-php/src/Request.php(58): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 /home/complyne/public_html/staging/razorpay-php/src/Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/complyne/public_html/staging/razorpay-php/src/Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/complyne/public_html/staging/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/complyne/public_html/staging/razorpay-php/Razorpay.php(78): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/complyne/public_html/staging/razorpay-php/src/Request.php on line 142
